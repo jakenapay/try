@@ -24,3 +24,7 @@
 <!-- your committed files will now push to main branch -->
 # -u means upstream, use for first time push in remote branch
 # git push -u origin main
+
+<!-- to merge two branches -->
+8. go to main branch
+- git merge <merging branchname>
