@@ -1,26 +1,27 @@
 # GIT Practice
-# Hi, my name is jake!
+### Hi, my name is jake!
 
 <!-- # Create new file -->
-# echo "message" >> <filename>
-# touch <filename>
+1. echo "message" >> <filename>
+- touch <filename>
 
 <!-- initialize the folder -->
-# git init
+2. git init
 
 <!-- add the files -->
-# git add .
-# git add <filename>
+3. git add .
+- git add <filename>
 
 <!-- commit the tracked files -->
-# git commit -m "message"
+4. git commit -m "message"
 
 <!-- force rename and overwrite the existing main branch if existing -->
-# git branch -M main
+5. git branch -M main
 
 <!-- to add the remote repository to your local -->
-# git remote add origin <remote URL>
+6. git remote add origin <remote URL>
 
 <!-- your committed files will now push to main branch -->
-# -u means upstream, use for first time push in remote branch
-# git push -u origin main
+7. -u means upstream, use for first time push in remote branch
+- git push -u origin main
+
