@@ -1,4 +1,5 @@
 # Typical Git Workflow
+
 1. **Clone the Repository**
     ```bash
     git clone <repo-url>
