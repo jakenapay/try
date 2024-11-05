@@ -1,2 +1,37 @@
-testing
-asasdasd
+User@DESKTOP-NBMGEFS MINGW64 ~/try (mikhan)
+$ git commit -m "testing push"
+[mikhan 37f7829] testing push
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testing.txt
+
+User@DESKTOP-NBMGEFS MINGW64 ~/try (mikhan)
+$ git push -u origin mikhan
+fatal: unable to access 'https://github.com/jakenapay/try.git/': Could not resol
+ve host: github.com
+
+User@DESKTOP-NBMGEFS MINGW64 ~/try (mikhan)
+$ git push -u origin mikhan
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 281 bytes | 281.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/jakenapay/try.git
+   3b8d602..37f7829  mikhan -> mikhan
+branch 'mikhan' set up to track 'origin/mikhan'.
+
+User@DESKTOP-NBMGEFS MINGW64 ~/try (mikhan)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+User@DESKTOP-NBMGEFS MINGW64 ~/try (main)
+$ git merge jb
+Updating 84c7c83..2d4eeb7
+Fast-forward
+ jb.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 jb.txt
+
+User@DESKTOP-NBMGEFS MINGW64 ~/try (main)
